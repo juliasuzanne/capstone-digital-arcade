@@ -1,6 +1,6 @@
-# fly.toml file generated for patient-wood-4884 on 2023-01-12T20:48:15-05:00
+# fly.toml file generated for moon-egg on 2023-01-14T17:23:23-05:00
 
-app = "patient-wood-4884"
+app = "moon-egg"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
