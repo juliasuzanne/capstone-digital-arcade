@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
   post "/items" => "items#create"
   get "/items" => "items#categories"
+  get "/items/all" => "items#index"
   get "/items/:id" => "items#show"
   delete "/items/:id" => "items#destroy"
   patch "/items/:id" => "items#update"
