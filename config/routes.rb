@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   post "/sessions" => "sessions#create"
   post "/users" => "users#create"
-  patch "/users" => "users#update"
+  patch "/users/:id" => "users#update"
+  get "/users/all" => "users#all"
+
   get "/artifacts" => "artifacts#index"
   get "/artifacts/all" => "artifacts#all"
   get "/users" => "users#index"

@@ -31,4 +31,9 @@ class UsersController < ApplicationController
     user = User.find_by(id: current_user.id)
     render json: user
   end
+
+  def all
+    user = User.all
+    render json: user
+  end
 end
